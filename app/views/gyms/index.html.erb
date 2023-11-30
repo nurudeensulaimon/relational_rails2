@@ -1,0 +1,10 @@
+<h1> Gyms </h1>
+<%= @gyms.each do |gym| %>
+
+<h3><%= gym.name %></h3>
+<p>Location:<%= gym.location%></p>
+<p>Member_Fee:<%= gym.member_fee%></p>
+<p>Pool_Service:<%= gym.pool_service%></p>
+
+<% end %>
+
